@@ -1,14 +1,23 @@
 #clock {
+  position: ;
 }
-
+  
 #clock img {
+  position: absolute;
 }
-
+/*use z index for placement of images, basically layer indicator*/
 #hour {
+  z-index: 2;
+  position: absolute
 }
-
+  
 #minute {
+  z-index: 3;
+  position: absolute
+}
+  
+#second {
+  z-index: 4;
+  position: absolute
 }
 
-#second {
-}
